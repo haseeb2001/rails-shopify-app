@@ -2,7 +2,6 @@
 
 class AuthenticatedController < ApplicationController
   include ShopifyApp::Authenticated
-  rescue_from ActionController::InvalidAuthenticityToken, with: :redirect_to_login
 end
 
 

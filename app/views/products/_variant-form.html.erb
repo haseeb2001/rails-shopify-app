@@ -1,0 +1,18 @@
+<%= form_with modal: @product, url: product_path(prod), method: :put, local: true do |form| %>
+   <p>
+    <%= form.hidden_field :variant_id ,value: var %>
+
+    <%= form.label :Size %><br>
+    <%= form.text_field :variant_size %>
+  </p>
+  <p>
+    <%= form.label :Colour %><br>
+    <%= form.text_field :variant_colour %>
+  </p>
+  <p>
+    <%= form.label :Price %><br>
+    <%= form.text_field :variant_price %>
+  </p>
+  <%= form.submit %>
+
+  <% end %>

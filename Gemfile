@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'shopify_app'
 
+gem 'bootstrap', '~> 5.1.3'
+
 gem 'dotenv-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

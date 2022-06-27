@@ -1,0 +1,12 @@
+<div class='container'>
+  <h2>Product details</h2>
+
+  <h4>Product name: <%= @product.title %></h4>
+
+  <h5>Vendor: <%= @product.vendor%></h5>
+  <p> <%= raw @product.body_html%></p>
+  <p><b>Vendor:</b> <%= @product.vendor%></p>
+  <p><b>Product type:</b> <%= @product.product_type %></p>
+  <%= link_to 'Back', products_path %>
+</div>
+
